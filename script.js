@@ -2,62 +2,9 @@
 
 var generateBtn = document.querySelector("#generate");
 
-var lowerCase = [
-  "a",
-  "b",
-  "c",
-  "d",
-  "e",
-  "f",
-  "g",
-  "h",
-  "i",
-  "j",
-  "k",
-  "l",
-  "m",
-  "n",
-  "o",
-  "p",
-  "q",
-  "r",
-  "s",
-  "t",
-  "u",
-  "v",
-  "w",
-  "x",
-  "y",
-  "z",
-];
-var upperCase = [
-  "A",
-  "B",
-  "C",
-  "D",
-  "E",
-  "F",
-  "G",
-  "H",
-  "I",
-  "J",
-  "K",
-  "L",
-  "M",
-  "N",
-  "O",
-  "P",
-  "Q",
-  "R",
-  "S",
-  "T",
-  "U",
-  "V",
-  "W",
-  "X",
-  "Y",
-  "Z",
-];
+var lowerCase = "abcdefghijklmnopqrstuvwxyz".split("");
+var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+
 var numbers = "0123456789".split(""); // .split method seperates string into arrays
 var specialC = "!@#$%^&*()_".split("");
 
@@ -115,7 +62,7 @@ function generatePassword() {
     addSpecial === false
   ) {
     alert("You must select one type of criteria to generate password");
-
+    //prompts the user again with criteria
     var addNumbers = confirm(
       "Should Password include number characters? Press 'OK' to add and 'Cancel' to remove."
     );
