@@ -3,7 +3,7 @@
 var generateBtn = document.querySelector("#generate");
 
 var lowerCase = "abcdefghijklmnopqrstuvwxyz".split("");
-var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+var upperCase = "abcdefghijklmnopqrstuvwxyz".toUpperCase().split("");
 
 var numbers = "0123456789".split(""); // .split method seperate string into arrays
 var specialC = "!@#$%^&*()_".split("");
