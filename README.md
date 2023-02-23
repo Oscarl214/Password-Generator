@@ -14,4 +14,6 @@ Once user selects preferred crieria, they are presented with their new random pa
 
 ## Preview
 
+![](https://github.com/Oscarl214/Password-Generator/blob/main/Assets/PassWord%20GEnerator.png)
+
 ## Deployed Links
