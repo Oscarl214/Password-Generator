@@ -8,9 +8,9 @@ A password Generator that enables employees to generate random passwords based o
 
 User is prompted with a question asking how long they want their password to be with the criteria of it being min 8 and max 128 characters. 
 
-Once user inputs apprioriate length, than they are presented with four diffrent criteria that they can include in the password.
+Once user inputs appropriate length, than they are presented with four different criteria that they can include in the password.
 
-Once user selects preferred crieria, they are presented with their new random password.
+Once user selects preferred crieria, they are presented with their new random password that is display on the page.
 
 ## Preview
 
